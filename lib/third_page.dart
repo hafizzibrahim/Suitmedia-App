@@ -12,7 +12,7 @@ class ThirdPage extends StatelessWidget {
       create: (context) => UserProvider()..fetchUsers(),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Third Page'),
+          title: const Text('Third Screen'),
         ),
         body: Consumer<UserProvider>(
           builder: (context, provider, child) {

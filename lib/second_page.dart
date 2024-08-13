@@ -17,7 +17,7 @@ class _SecondPageState extends State<SecondPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Halaman Kedua'),
+        title: const Text('Second Screen'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
@@ -65,7 +65,7 @@ class _SecondPageState extends State<SecondPage> {
                 ),
               ),
               child: const Text(
-                'Aksi Tombol',
+                'Choose a User',
                 style: TextStyle(color: Colors.white),
               ),
             ),
